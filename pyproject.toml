@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cli-langchain-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Nate Kandler <natekandler@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.3.33"
+langgraph = "^0.2.68"
+langchain-openai = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
